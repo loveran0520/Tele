@@ -11,7 +11,7 @@ import csv
 import traceback
 import time
 from datetime import datetime
-api_id = 
+api_id = ''
 api_hash = ''
 phone = ''
 client = TelegramClient(phone, api_id, api_hash)
