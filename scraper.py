@@ -91,7 +91,7 @@ print(gr+'[+] Saving In file...')
 time.sleep(1)
 with open("members.csv","w",encoding='UTF-8') as f:
     writer = csv.writer(f,delimiter=",",lineterminator="\n")
-    writer.writerow(['username','user id', 'access hash','name','group', 'group id'])
+   writer.writerow(['username','user id', 'access hash','name','group', 'group id','last seen'])
    for user in all_participants:
         accept=True
         try:
